@@ -1,0 +1,16 @@
+.wrapper{
+    border: 1px solid wheat;
+    height: 70vh;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.createSearchArea{
+    flex-basis: 15%;    
+    padding: 2em 5em;    
+    display: flex;    
+}
+.displayTickets{    
+    flex-basis: 85%;
+    overflow: hidden;
+}
